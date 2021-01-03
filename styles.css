@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+} 
+body {
+    margin: 0;
+    background: whitesmoke;
+}
+
+.l-main-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem 7rem 1rem;
+}
+
+
+.c-main-title {
+    font-family: 'Oswald', sans-serif;
+    padding: 2rem 0 1rem 0;
+    letter-spacing: -0.5px;
+    margin: 0;
+} 
+
+.c-main-subtitle {
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0 0 1rem 0;
+}
+
+.c-list-title {
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.c-list-title::after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid rgb(196 196 196);
+    margin-top: 0.5rem;
+}
+
+.c-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem 0;
+    font-family: 'Quattrocento', serif;
+}
+
+.c-list__item {
+    display: flex;
+    align-items: center;
+}
+
+.c-list__item:not(:last-child) {
+    margin-bottom: 0.4rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px dotted rgb(155, 155, 155);
+}
+
+.c-list__name {
+    flex-grow: 1;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-list__main {
+    font-size: 1.1rem;
+}
+
+.c-list__description {
+    color: #4a4a4a;
+    font-size: 0.8rem;
+}
+
+.c-list__price {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    width: 2rem;
+    font-size: 1.2rem;
+    text-align: right;
+}
