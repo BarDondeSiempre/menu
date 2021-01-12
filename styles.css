@@ -32,6 +32,12 @@ body {
     margin: 0;
 }
 
+.c-list-title span {
+    font-family: 'Quattrocento', serif;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
 .c-list-title::after {
     content: '';
     display: block;
